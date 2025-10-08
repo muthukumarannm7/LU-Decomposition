@@ -18,41 +18,21 @@ get input from the user
 print result
 ## Program:
 (i) To find the L and U matrix
-```
-'''
-Program to find L and U matrix using LU decomposition.
-Developed by: GAUTHAM KRISHNA S
-RegisterNumber: 23012450
-'''
-import numpy as np
-from scipy.linalg import lu
-A = np.array(eval(input()))
-P,L,U = lu(A)
-print(L)
-print(U)
-```
+
+<img width="405" height="148" alt="Screenshot 2025-10-08 133226" src="https://github.com/user-attachments/assets/60eaad06-4528-44fd-9a48-30e7f5807a29" />
+
+
 (ii) To find the LU Decomposition of a matrix
-```
-'''
-Program to solve a matrix using LU decomposition.
-Developed by: GAUTHAM KRISHNA S
-RegisterNumber: 23012450
-'''
 
-# To print X matrix (solution to the equations)
-import numpy as np
-from scipy.linalg import lu_factor,lu_solve
-A = np.array(eval(input()))
-B = np.array(eval(input()))
-lu, piv = lu_factor(A)
-x = lu_solve((lu, piv),B)
-print(x)
+<img width="453" height="283" alt="image" src="https://github.com/user-attachments/assets/16d92808-3fc1-4aa9-a964-fdbb9b3844b0" />
 
-```
+
+
+
+
 
 ## Output:
-![Screenshot 2023-12-24 223621](https://github.com/gauthamkrishna7/LU-Decomposition/assets/141175025/e25eafca-eda8-4d9a-9b1c-b5599b970e49)
-![Screenshot 2023-12-24 223653](https://github.com/gauthamkrishna7/LU-Decomposition/assets/141175025/3fc605ce-39cb-4765-a670-80740fc02a31)
+<img width="398" height="150" alt="Screenshot 2025-10-08 133640" src="https://github.com/user-attachments/assets/46014f33-40f2-4a44-9bea-d7c16099926a" />
 
 ## Result:
 Thus the program to find the LU Decomposition of a matrix is written and verified using python programming.
